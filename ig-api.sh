@@ -417,8 +417,14 @@ sleep 5
 username_id=$(curl -L -s 'https://www.instagram.com/'$user'' > getid && grep -o  'profilePage_[0-9]*.' getid | cut -d "_" -f2 | tr -d '"')
 
 dearra="2202687080"
+luisafernandaw="240470160"
+plies="144641099"
+ninasmakeup="26182831"
 
 lilyaldridge="182144062"
+donutbar="327698831"
+uzhunnvada="13078687872"
+ashisdonut="7211892280"
 
 
 if [[ ! -e celeb_id ]]; then
